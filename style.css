@@ -42,8 +42,9 @@ nav {
 }
 
 .top-slide {
-	background: url(img/slider_bg.png);
+	background: url(img/slider_bg.png) no-repeat;
 	padding-top: 120px;
+	padding-bottom: 300px;
 }
 .top-container {
 	width: 85%;
@@ -63,7 +64,54 @@ nav {
 	font-size: 24px;
 	background: #414146;
 	display: inline;
+	padding: 2px;
 }
+.specialize-container {
+	width:80%;
+	margin: 0 auto;
+	text-align: center;
+}
+.specialize-container h3 {
+	font-size: 35px;
+}
+.specialize-container p {
+	margin-top:20px;
+	margin-bottom: 40px;
+	font-size: 24px;
+}
+.first-p {
+	font-size: 20px;
+	color: #ffffff;
+}
+.bottom-card {
+	background: #414146;
+}
+.specialize-card {
+	display: flex;
+	justify-content: space-between;
+}
+.specialize-card :nth-child(7){
+	font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
