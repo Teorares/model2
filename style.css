@@ -41,11 +41,37 @@ nav {
 	margin-top: 20px;
 }
 
+.top-slide {
+	background: url(img/slider_bg.png);
+	padding-top: 120px;
+}
+.top-container {
+	width: 85%;
+	margin: 0 auto;
+}
+.top-slide h2 {
+	background: #ffea00;
+	display: inline;
+	font-size: 70px;
+	padding: 0 13px;
+}
+.top-slide :nth-child(2) {
+	margin-bottom: 10px;
+}
+.top-slide p {
+	color: #ffffff;
+	font-size: 24px;
+	background: #414146;
+	display: inline;
+}
+
+
+
 @media screen and (max-width: 420px){
 	.header-container{
 		width: 100%;
 		display: flex;
-		justify-content: space-around;
+		
 	}
 	.main-menu {
 		display: none;
@@ -83,4 +109,5 @@ nav {
 		top: 30px;
 		right: 115px;
 	}
+
 }
