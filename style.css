@@ -66,7 +66,7 @@ nav {
 	display: inline;
 	padding: 2px;
 }
-.specialize-container {
+.specialize-container { 
 	width:80%;
 	margin: 0 auto;
 	text-align: center;
@@ -75,9 +75,9 @@ nav {
 	font-size: 35px;
 }
 .specialize-container p {
-	margin-top:20px;
+	margin-top: 20px;
 	margin-bottom: 40px;
-	font-size: 24px;
+	font-size: 24px; 
 }
 .first-p {
 	font-size: 20px;
@@ -85,18 +85,30 @@ nav {
 }
 .bottom-card {
 	background: #414146;
+	position: relative;
+	top:-30px;
 }
 .specialize-card {
 	display: flex;
 	justify-content: space-between;
 }
-.specialize-card :nth-child(7){
-	font-size: 13px;
+.portfolio {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}      
+.portfolio h4 {
+	display: inline-block;
+	background: #424147;
+	font-size: 18px;
+	color:#ffeb00;
+	padding:8px 27px;
+	margin-bottom:30px;
 }
-
-
-
-
+.portfolio p {
+	color:#403f44;
+	font-size:16px;
+}
 
 
 
